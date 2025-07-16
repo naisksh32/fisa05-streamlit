@@ -1,0 +1,6 @@
+배포시 해당 버전의 필요로 하는 모든 패키지 정보들을 남겨줌
+
+pip freeze > requirements.txt
+
+파일 읽어오기 - 필요 패키지, 버전들을 다 불러옴
+pip -r requirements.txt
